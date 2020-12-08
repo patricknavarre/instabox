@@ -75,16 +75,17 @@ a:link:hover {
     justify-content: space-around;
 }
 
+#help-insta {
+    font-weight: bolder;
+    color: rgb(20,54, 107);
+}
+
 .bold-numbers {
     font-weight: bold;
 }
 
 .make-me-smaller {
     font-size: 12px;
-}
-
-#help-insta {
-    font-style: italic;
 }
 
 .make-gray {
