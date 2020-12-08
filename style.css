@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+a:link {
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.ig-logo {
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.top-section-left {
+    margin-top: 40px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.bottom-section-pics {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: bottom;
+}
+
+.bottom-section {
+    padding: 50px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-with-text {
+    text-align: center;
+}
+
+.user-info {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bold-numbers {
+    font-weight: bold;
+}
+
+.make-me-smaller {
+    font-size: 12px;
+}
