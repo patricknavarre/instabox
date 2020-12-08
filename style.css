@@ -6,7 +6,6 @@ body {
 a:link {
     font-size: 15px;
     text-decoration: none;
-
 }
 
 a:link:hover {
@@ -48,16 +47,12 @@ a:link:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: bottom;
-}
-
-.bottom-section {
     padding: 50px;
 }
 
 .upper-section {
     display: flex;
     align-items: baseline;
-
 }
 
 .top-section {
