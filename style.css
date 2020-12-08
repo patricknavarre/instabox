@@ -1,11 +1,28 @@
 body {
     background-color: rgb(250, 250, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 a:link {
     font-size: 15px;
     text-decoration: none;
 
+}
+
+a:link:hover {
+    text-decoration: underline;
+}
+#following {
+    height: 34px;
+}
+
+#user-name {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#check-mark {
+    height: 25px
 }
 
 .ig-logo {
@@ -15,11 +32,13 @@ a:link {
     display: flex;
 }
 
-.top-section-left {
+
+.top-section-right {
     margin-top: 40px;
     margin-right: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: top;
 }
 
@@ -33,6 +52,12 @@ a:link {
 
 .bottom-section {
     padding: 50px;
+}
+
+.upper-section {
+    display: flex;
+    align-items: baseline;
+
 }
 
 .top-section {
@@ -56,4 +81,12 @@ a:link {
 
 .make-me-smaller {
     font-size: 12px;
+}
+
+#help-insta {
+    font-style: italic;
+}
+
+.make-gray {
+    color: gray;
 }
